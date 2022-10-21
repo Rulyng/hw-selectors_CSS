@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.1s ease-in;
+}
+
+.wrapper {
+  max-width: 793;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.title {
+  background: #4a4f56;
+  padding-top: 19px;
+  padding-bottom: 12px;
+}
+
+.title__name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  align-items: center;
+  color: #ff8984;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.title__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  align-items: center;
+  color: #ff8984;
+  text-align: center;
+}
+
+.main {
+  background: #3b3f45;
+  padding-top: 20px;
+  padding-bottom: 45px;
+}
+
+.tab {
+  max-width: 534px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+}
+
+.tab_item {
+  background: #88839e;
+  padding: 12px;
+}
+
+label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  color: #ffffff;
+  padding-top: 12px;
+  padding-bottom: 17px;
+}
+
+.note {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.tab_item:nth-child(2n) {
+  background: #7a7593;
+}
+
+.tab__item-check:checked + label {
+  text-decoration: line-through;
+}
+
+.tab_item:hover {
+  background: #625e77;
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+}
+
+.tab_item:active {
+  background-color: pink;
+}
+
+.note::before {
+  content: "(";
+}
+
+.note::after {
+  content: ")";
+}
+
+.main__wish {
+  background: #4a4f56;
+  max-width: 534px;
+  margin: 0 auto;
+}
+
+.wish-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+
+  color: #ff8984;
+  text-align: center;
+  padding: 12px 0;
+}
